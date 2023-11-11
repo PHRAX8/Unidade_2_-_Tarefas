@@ -3,7 +3,7 @@ import Link from 'next/link';
 function OpenPage() {
     return (
         <div>
-            <Link href="/novaPagina">novaPagina</Link>
+            <Link href="Receita14/novaPagina">novaPagina</Link>
         </div>
     );
 }
