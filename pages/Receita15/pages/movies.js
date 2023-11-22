@@ -11,7 +11,7 @@ export default function Movies({ data }) {
   async function onSubmit(e) {
     e.preventDefault();
 
-    const res = await fetch(`http://www.omdbapi.com/?apikey=2763e91&t=${formData.name}&y=${formData.year}`);
+    const res = await fetch(`https://www.omdbapi.com/?apikey=2763e91&t=${formData.name}&y=${formData.year}`);
     const newData = await res.json();
 
     setResult(newData);
